@@ -1,0 +1,82 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .hero-section{
+    height: 100vh;
+    background-image: url(../img/neom-HYtBA9xDyfg-unsplash.jpg);
+    color: #000;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+
+    background-color: rgba(0, 0, 0, 40%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+h1{
+    font-size: 75px;
+}
+
+p{  
+    font-size: 18px;
+    width: 75%;
+    text-align: center;
+} */
+
+body{
+    display: flex;
+}
+
+
+nav{
+    width: 25%;
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+}
+
+nav > ul{
+    height: 100%;
+    display: 250px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav> ul > li{  
+    padding: 25px;
+    list-style: none;
+}
+
+nav > ul > li >a{    
+    color: #fff;
+    text-decoration: none;
+}
+
+nav > ul > li:hover { 
+    background-color: white;
+    transition: .25s;   
+}
+
+nav > ul > li:hover >a{
+    color: black;
+}
+
+section{ 
+    padding: 50px;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
